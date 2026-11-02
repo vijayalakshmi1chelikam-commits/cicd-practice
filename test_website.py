@@ -8,6 +8,6 @@ def test_website_title():
 
         page.goto("https://example.com")
 
-        assert page.title() == "Example Domain"
+        assert page.title() == "wrong title "  # This assertion is intentionally incorrect to demonstrate a failing test
 
         browser.close()
